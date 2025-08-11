@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHkids - Learning Technology for Kids</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color:gainsboro;
+            color: #000;
+            
+        }
+        form {
+            margin-top: 15px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        video{
+            width: 100%;
+            margin: 10px 0;
+        }
+        .required:after {
+            content: " *";
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to TECHkids</h1>
+        <p>Where kids learn technology in a fun way</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#media">Media</a>
+        <a href="#register">Register</a>
+    </nav>
+
+    <section id="about">
+        <h2>About TECHkids</h2>
+        <p>TECHkids offers fun technology courses for children ages 8-14.</p>
+        
+        <h3>Why Choose Us?</h3>
+        <ul>
+            <li>Fun, project-based learning</li>
+            <li>Small class sizes</li>
+            <li>Certified instructors</li>
+            <li>Safe online environment</li>
+        </ul>
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>Age Group</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>Introduction to Coding</td>
+                <td>8-10 years</td>
+                <td>8 weeks</td>
+            </tr>
+            <tr>
+                <td>Game Design</td>
+                <td>10-12 years</td>
+                <td>10 weeks</td>
+            </tr>
+            <tr>
+                <td>Web Development</td>
+                <td>12-14 years</td>
+                <td>12 weeks</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="media">
+        <h2>See Our Students in Action</h2>
+        
+        <video controls>
+            <source src="https://videos.pexels.com/video-files/7868417/7868417-uhd_2560_1440_25fps.mp4" type="video/mp4">
+            Your browser doesn't support video tag.
+        </video>
+        
+    </section>
+
+    <section id="register">
+        <h2>Register Your Child</h2>
+        
+        <form id="registration">
+            <label for="child-name" class="required">Child's Name </label>
+            <input type="text" id="child-name" name="child-name" required minlength="2">
+            
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="8" max="14">
+            
+            <label for="gender">Gender</label>
+            <input type="radio" id="Male" name="gender" value="Male" > Male
+            <input type="radio" id="Female" name="gender" value="Female" > Female <br>
+
+            <label for="parent-email" class="required">Parent's Email</label>
+            <input type="email" id="parent-email" name="parent-email" required>
+            
+            <label for="course">Select Course</label>
+            <select id="course" name="course" required>
+                <option value="">Choose a course</option>
+                <option value="coding">Introduction to Coding</option>
+                <option value="game">Game Design</option>
+                <option value="web">Web Development</option>
+            </select>
+            
+            <label for="questions">Questions or Special Requests</label>
+            <textarea id="questions" name="questions" rows="4"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 TECHkids | Contact: info@techkids.com | +254794169660</p>
+    </footer>
+</body>
+</html>
