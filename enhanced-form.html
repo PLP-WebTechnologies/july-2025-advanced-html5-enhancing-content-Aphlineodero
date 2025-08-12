@@ -3,190 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TECHkids - Learning Technology for Kids</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f5f5f5;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 15px;
-        }
-        section {
-            background-color: white;
-            margin: 20px;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 15px 0;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color:gainsboro;
-            color: #000;
-            
-        }
-        form {
-            margin-top: 15px;
-        }
-        label {
-            display: block;
-            margin: 10px 0 5px;
-        }
-        input, select, textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        
-        }
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        video{
-            width: 100%;
-            margin: 10px 0;
-        }
-        .required:after {
-            content: " *";
-            color: red;
-        }
-    </style>
+    <title>TECHkids - Technology Programs for Children</title>
 </head>
 <body>
     <header>
-        <h1>Welcome to TECHkids</h1>
-        <p>Where kids learn technology in a fun way</p>
+        <h1>TECHkids</h1>
+        <p>Where young minds discover the joy of technology</p>
+        <nav>
+            <a href="#programs">Our Programs</a>
+            <a href="#schedule">Class Schedule</a>
+            <a href="#register">Register</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#courses">Courses</a>
-        <a href="#media">Media</a>
-        <a href="#register">Register</a>
-    </nav>
+    <main>
+        <!-- Programs Section with Table -->
+        <section id="programs">
+            <h2>Our Technology Programs</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Program Name</th>
+                        <th>Age Group</th>
+                        <th>Duration</th>
+                        <th>Skills Learned</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Little Coders</td>
+                        <td>6-8 years</td>
+                        <td>8 weeks</td>
+                        <td>Basic programming logic, Scratch</td>
+                    </tr>
+                    <tr>
+                        <td>Game Creators</td>
+                        <td>9-11 years</td>
+                        <td>10 weeks</td>
+                        <td>Game design, Python basics</td>
+                    </tr>
+                    <tr>
+                        <td>Web Developers</td>
+                        <td>12-14 years</td>
+                        <td>12 weeks</td>
+                        <td>HTML, CSS, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Robotics Explorers</td>
+                        <td>10-14 years</td>
+                        <td>8 weeks</td>
+                        <td>Robotics, Arduino</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-    <section id="about">
-        <h2>About TECHkids</h2>
-        <p>TECHkids offers fun technology courses for children ages 8-14.</p>
-        
-        <h3>Why Choose Us?</h3>
-        <ul>
-            <li>Fun, project-based learning</li>
-            <li>Small class sizes</li>
-            <li>Certified instructors</li>
-            <li>Safe online environment</li>
-        </ul>
-    </section>
+        <!-- Schedule Section with Table -->
+        <section id="schedule">
+            <h2>Class Schedule</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Program</th>
+                        <th>Days</th>
+                        <th>Time</th>
+                        <th>Start Date</th>
+                        <th>Seats Available</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Little Coders</td>
+                        <td>Mon/Wed</td>
+                        <td>4:00-5:00 PM</td>
+                        <td>June 3, 2025</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Game Creators</td>
+                        <td>Tue/Thu</td>
+                        <td>4:30-5:30 PM</td>
+                        <td>June 4, 2025</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Web Developers</td>
+                        <td>Sat</td>
+                        <td>10:00 AM-12:00 PM</td>
+                        <td>June 8, 2025</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Robotics Explorers</td>
+                        <td>Fri</td>
+                        <td>4:00-6:00 PM</td>
+                        <td>June 7, 2025</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-    <section id="courses">
-        <h2>Our Courses</h2>
-        
-        <table>
-            <tr>
-                <th>Course</th>
-                <th>Age Group</th>
-                <th>Duration</th>
-            </tr>
-            <tr>
-                <td>Introduction to Coding</td>
-                <td>8-10 years</td>
-                <td>8 weeks</td>
-            </tr>
-            <tr>
-                <td>Game Design</td>
-                <td>10-12 years</td>
-                <td>10 weeks</td>
-            </tr>
-            <tr>
-                <td>Web Development</td>
-                <td>12-14 years</td>
-                <td>12 weeks</td>
-            </tr>
-        </table>
-    </section>
+        <!-- Registration Form Section -->
+        <section id="register">
+            <h2>Register Your Child</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Child's Information</legend>
+                    <label for="child-name">Full Name *</label>
+                    <input type="text" id="child-name" name="child-name" required placeholder="First and Last Name">
+                    
+                    <label for="birthdate">Date of Birth *</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                    
+                    <label for="grade">Current Grade *</label>
+                    <input type="text" id="grade" name="grade" required placeholder="e.g., 3rd Grade">
+                </fieldset>
 
-    <section id="media">
-        <h2>See Our Students in Action</h2>
-        
-        <video controls>
-            <source src="https://videos.pexels.com/video-files/7868417/7868417-uhd_2560_1440_25fps.mp4" type="video/mp4">
-            Your browser doesn't support video tag.
-        </video>
-        
-    </section>
+                <fieldset>
+                    <legend>Parent/Guardian Information</legend>
+                    <label for="parent-name">Full Name *</label>
+                    <input type="text" id="parent-name" name="parent-name" required placeholder="Your Full Name">
+                    
+                    <label for="parent-email">Email *</label>
+                    <input type="email" id="parent-email" name="parent-email" required placeholder="your@email.com">
+                    
+                    <label for="parent-phone">Phone Number *</label>
+                    <input type="tel" id="parent-phone" name="parent-phone" required placeholder="123-456-7890">
+                </fieldset>
 
-    <section id="register">
-        <h2>Register Your Child</h2>
-        
-        <form id="registration">
-            <label for="child-name" class="required">Child's Name </label>
-            <input type="text" id="child-name" name="child-name" required minlength="2">
-            
-            <label for="age">Age</label>
-            <input type="number" id="age" name="age" min="8" max="14">
-            
-            <label for="gender">Gender</label>
-            <input type="radio" id="Male" name="gender" value="Male" > Male
-            <input type="radio" id="Female" name="gender" value="Female" > Female <br>
+                <fieldset>
+                    <legend>Program Selection</legend>
+                    <label for="program">Select Program *</label>
+                    <select id="program" name="program" required>
+                        <option value="">-- Choose a Program --</option>
+                        <option value="little-coders">Little Coders (6-8 yrs)</option>
+                        <option value="game-creators">Game Creators (9-11 yrs)</option>
+                        <option value="web-developers">Web Developers (12-14 yrs)</option>
+                        <option value="robotics">Robotics Explorers (10-14 yrs)</option>
+                    </select>
+                    
+                    <label for="schedule-pref">Preferred Schedule *</label>
+                    <select id="schedule-pref" name="schedule-pref" required>
+                        <option value="">-- Select Schedule --</option>
+                        <option value="mon-wed-pm">Mon/Wed 4:00-5:00 PM</option>
+                        <option value="tue-thu-pm">Tue/Thu 4:30-5:30 PM</option>
+                        <option value="sat-am">Sat 10:00 AM-12:00 PM</option>
+                        <option value="fri-pm">Fri 4:00-6:00 PM</option>
+                    </select>
+                </fieldset>
 
-            <label for="parent-email" class="required">Parent's Email</label>
-            <input type="email" id="parent-email" name="parent-email" required>
-            
-            <label for="course">Select Course</label>
-            <select id="course" name="course" required>
-                <option value="">Choose a course</option>
-                <option value="coding">Introduction to Coding</option>
-                <option value="game">Game Design</option>
-                <option value="web">Web Development</option>
-            </select>
-            
-            <label for="questions">Questions or Special Requests</label>
-            <textarea id="questions" name="questions" rows="4"></textarea>
-            
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <label for="experience">Child's Previous Tech Experience</label>
+                    <textarea id="experience" name="experience" rows="4" placeholder="Describe any previous technology classes or experience"></textarea>
+                    
+                    <label for="allergies">Any Allergies or Special Needs?</label>
+                    <textarea id="allergies" name="allergies" rows="2" placeholder="Please list any allergies or special requirements"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Terms and Conditions</legend>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the TECHkids Terms and Conditions *</label>
+                    
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Subscribe to our newsletter</label>
+                </fieldset>
+
+                <button type="submit">Submit Registration</button>
+                <button type="reset">Reset Form</button>
+            </form>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2025 TECHkids | Contact: info@techkids.com | +254794169660</p>
+        <p>© 2025 TECHkids | Email: info@techkids.org | Phone: (254) 794-169660</p>
     </footer>
 </body>
 </html>
